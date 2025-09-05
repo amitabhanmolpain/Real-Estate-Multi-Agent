@@ -1,0 +1,4 @@
+{
+  "name": "host_agent",
+  "description": "Acts as the orchestrator of the multi-agent system. Receives user queries, routes them to specialized agents such as the Buyer Agent, Seller Agent, Price Estimator Agent, and Neighborhood Agent, and compiles their responses into a final output for the user."
+}

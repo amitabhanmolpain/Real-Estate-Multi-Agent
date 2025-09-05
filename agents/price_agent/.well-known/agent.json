@@ -1,0 +1,4 @@
+  {
+    "name": "price_estimator_agent",
+    "description": "Analyzes property details, market trends, and past sales data to predict fair property values. Flags overpriced or underpriced listings and assists both buyers and sellers in making informed pricing decisions."
+  }

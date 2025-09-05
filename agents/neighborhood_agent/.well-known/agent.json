@@ -1,0 +1,5 @@
+{
+    "name": "neighborhood_agent",
+    "description": "Provides location intelligence by analyzing surrounding amenities such as schools, hospitals, transport, and safety data. Summarizes the strengths and weaknesses of a neighborhood to support better decision-making for buyers and sellers."
+  }
+  
