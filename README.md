@@ -71,24 +71,31 @@ GOOGLE_API_KEY=your_api_key_here
 
 1. Open project in VS Code
 2. Open 5 integrated terminals (`Terminal > New Terminal`)
-3. Run each command in separate terminals:
+3. Run each FastAPI agent and Streamlit in separate terminals:
 
 ```bash
-# Terminal 1
+# Terminal 1 - Buyer Agent FastAPI (Port 8001)
 python -m agents.buyer_agent
 
-# Terminal 2  
+# Terminal 2 - Seller Agent FastAPI (Port 8002)
 python -m agents.seller_agent
 
-# Terminal 3
+# Terminal 3 - Price Agent FastAPI (Port 8003)
 python -m agents.price_agent
 
-# Terminal 4
+# Terminal 4 - Neighborhood Agent FastAPI (Port 8004)
 python -m agents.neighborhood_agent
 
-# Terminal 5
+# Terminal 5 - Streamlit Web Interface (Port 8501)
 streamlit run streamlit.py
 ```
+
+**Port Configuration:**
+- Buyer Agent: `http://localhost:8001`
+- Seller Agent: `http://localhost:8002`
+- Price Agent: `http://localhost:8003`
+- Neighborhood Agent: `http://localhost:8004`
+- Streamlit App: `http://localhost:8501`
 
 ### Method 2: Using VS Code Tasks
 
